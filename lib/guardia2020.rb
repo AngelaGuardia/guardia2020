@@ -2,5 +2,10 @@ require "guardia2020/version"
 
 module Guardia2020
   class Error < StandardError; end
-  # Your code goes here...
+
+  class Vote
+    def for_me
+      puts "Vote for me!"
+    end
+  end
 end
